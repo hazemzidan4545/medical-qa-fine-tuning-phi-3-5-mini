@@ -1,0 +1,19 @@
+{
+  "auto_mapping": null,
+  "base_model_name_or_path": "microsoft/Phi-3.5-mini-instruct",
+  "inference_mode": true,
+  "modules_to_save": null,
+  "num_attention_heads": 32,
+  "num_layers": 32,
+  "num_transformer_submodules": 1,
+  "num_virtual_tokens": 20,
+  "peft_type": "PROMPT_TUNING",
+  "peft_version": "0.18.1",
+  "prompt_tuning_init": "TEXT",
+  "prompt_tuning_init_text": "Answer the following medical question accurately:",
+  "revision": null,
+  "task_type": "CAUSAL_LM",
+  "token_dim": 3072,
+  "tokenizer_kwargs": null,
+  "tokenizer_name_or_path": "microsoft/Phi-3.5-mini-instruct"
+}
